@@ -17,5 +17,5 @@ and remove DNS / File Create, then follow the instuctions.
 You might also want to increase your Event log sizes if you are doing GPO lockdowns as well.
 
 # Usage
-1. Install Coclatey
+1. Install Choclatey
 2. Select The PS1 for your system
