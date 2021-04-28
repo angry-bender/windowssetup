@@ -1,5 +1,5 @@
 #Installs Packages
-choco install firefox googlechrome steam goggalaxy origin uplay epicgameslauncher vlc nvidia-display-driver battle.net intel-chipset-device-software intel-me-drivers logitechgaming sysmon 
+choco install firefox steam goggalaxy origin uplay epicgameslauncher vlc nvidia-display-driver battle.net intel-chipset-device-software intel-me-drivers logitechgaming sysmon 
 
 #Installs git for powershell
 refreshenv
