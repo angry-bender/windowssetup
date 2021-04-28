@@ -4,7 +4,7 @@ choco install firefox vmwareworkstation 7zip steam goggalaxy origin uplay epicga
 #Installs git for powershell
 refreshenv
 Install-Module posh-git -Scope CurrentUser -Force
-Add-PoshGitToProfile
+Add-Content $PROFILE 'Import-Module posh-git'
 
 $Edition=Get-WindowsEdition -Online
 
