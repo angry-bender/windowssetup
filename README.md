@@ -19,3 +19,4 @@ You might also want to increase your Event log sizes if you are doing GPO lockdo
 ## Usage
 1. Install Choclatey
 2. Select The PS1 for your system
+3. Install the optional Get-Terminal, an experimental script
