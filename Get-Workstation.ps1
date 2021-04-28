@@ -1,5 +1,5 @@
 #Installs Packages
-choco install firefox microsoft-edge vmwareworkstation 7zip vlc vscode nvidia-display-driver intel-chipset-device-software intel-me-drivers sysmon citrix-workspace adobereader naps2 git signal putty winscp
+choco install firefox vmwareworkstation 7zip vlc vscode nvidia-display-driver intel-chipset-device-software intel-me-drivers sysmon citrix-workspace adobereader naps2 git signal putty winscp
 
 #Installs git for powershell
 refreshenv
