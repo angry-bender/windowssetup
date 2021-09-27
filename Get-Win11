@@ -1,4 +1,7 @@
 #Installs Packages
+Winget install Microsoft.WindowsTerminal
+Winget install ohmyposh
+winget install powershell
 Winget install Microsoft.Office
 Winget install grammarly.grammarlyforoffice
 Winget install git
@@ -17,6 +20,8 @@ Winget install Cyanfish.NAPS2
 Winget install OpenWhisperSystems.Signal 
 Winget install WinSCP.WinSCP 
 Winget install GlassWire.GlassWire
+Winget install OrbxSimulationSystems.Volanta
+Winget install Yubico.Authenticator
 
 #you should still download and installsysmon until there is a package for winget
 
