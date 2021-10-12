@@ -8,6 +8,10 @@ Add-Content $PROFILE 'Import-Module posh-git'
 
 $Edition=Get-WindowsEdition -Online
 
+#Ensures scans will run, even if computer turned off at next login https://docs.microsoft.com/en-us/powershell/module/defender/set-mppreference?view=windowsserver2019-ps
+Set-MPPreference -DisableCatchupQuickScan $False
+Set-MPPreference -DisableCatchupFullScan $False
+
 if($Edition.Edition -eq "Professional")
 {
     # Basic Client harding (Requires Win-10 Pro)

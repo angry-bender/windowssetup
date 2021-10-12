@@ -6,6 +6,10 @@ refreshenv
 Install-Module posh-git -Scope CurrentUser -Force
 Add-Content $PROFILE 'Import-Module posh-git'
 
+#Ensures scans will run, even if computer turned off at next login https://docs.microsoft.com/en-us/powershell/module/defender/set-mppreference?view=windowsserver2019-ps
+Set-MPPreference -DisableCatchupQuickScan $False
+Set-MPPreference -DisableCatchupFullScan $False
+
 $Edition=Get-WindowsEdition -Online
 
 if($Edition.Edition -eq "Professional")

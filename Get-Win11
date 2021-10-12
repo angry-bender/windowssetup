@@ -22,6 +22,8 @@ Winget install WinSCP.WinSCP
 Winget install GlassWire.GlassWire
 Winget install OrbxSimulationSystems.Volanta
 Winget install Yubico.Authenticator
+Winget install Discord
+WInget install spotify
 
 #you should still download and installsysmon until there is a package for winget
 
@@ -29,6 +31,10 @@ Winget install Yubico.Authenticator
 refreshenv
 Install-Module posh-git -Scope CurrentUser -Force
 Add-Content $PROFILE 'Import-Module posh-git'
+
+#Ensures scans will run, even if computer turned off at next login https://docs.microsoft.com/en-us/powershell/module/defender/set-mppreference?view=windowsserver2019-ps
+Set-MPPreference -DisableCatchupQuickScan $False
+Set-MPPreference -DisableCatchupFullScan $False
 
 $Edition=Get-WindowsEdition -Online
 
