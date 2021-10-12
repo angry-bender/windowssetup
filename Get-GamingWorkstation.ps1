@@ -12,6 +12,9 @@ $Edition=Get-WindowsEdition -Online
 Set-MPPreference -DisableCatchupQuickScan $False
 Set-MPPreference -DisableCatchupFullScan $False
 
+#Ensures Patterns are updated prior to scan
+Set-MPPreference -CheckForSignaturesBeforeRunningScan $true
+
 
 if($Edition.Edition -eq "Professional")
 {

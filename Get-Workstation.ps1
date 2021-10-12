@@ -10,6 +10,10 @@ Add-Content $PROFILE 'Import-Module posh-git'
 Set-MPPreference -DisableCatchupQuickScan $False
 Set-MPPreference -DisableCatchupFullScan $False
 
+#Ensures Patterns are updated prior to scan
+Set-MPPreference -CheckForSignaturesBeforeRunningScan $true
+
+
 $Edition=Get-WindowsEdition -Online
 
 if($Edition.Edition -eq "Professional")
