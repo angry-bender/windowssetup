@@ -7,9 +7,9 @@ Choclatey install
 
 ## Description
 
-Will install Common packages and basic windows defender config for a variety of PC's. 
+Will install Common packages and basic windows defender config for a variety of PC's. Including a beta for Windows 11
 
-It will also install sysmon, which gives enhanced event logs if you want to configure it, Id reccomend the following 
+It will also install sysmon, which gives enhanced event logs if you want to configure it, Id recommend the following 
 
 https://github.com/olafhartong/sysmon-modular
 
