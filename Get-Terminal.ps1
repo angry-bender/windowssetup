@@ -1,12 +1,11 @@
-echo "there may be a small delay, please wait at least a minute"
-Install-Module oh-my-posh -Scope CurrentUser -Force
+echo "there may be a small delay, please wait at least 3 Minutes"
+Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
 Install-Module -Name PSReadLine -Scope CurrentUser -Force -SkipPublisherCheck
 
-Add-PoshGitToProfile
+oh-my-posh font install CascadiaCode
 
-Add-Content $PROFILE 'Import-Module oh-my-posh'
-Add-Content $PROFILE 'Set-PoshPrompt -Theme hotstick.minimal'
-
+Add-Content $PROFILE 'oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\hotstick.minimal.omp.json" | Invoke-Expression'
+. $PROFILE
 
 Add-Type -AssemblyName PresentationCore,PresentationFramework
 $ButtonType = [System.Windows.MessageBoxButton]::Ok
