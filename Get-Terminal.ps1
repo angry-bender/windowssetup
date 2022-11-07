@@ -5,6 +5,7 @@ Install-Module -Name PSReadLine -Scope CurrentUser -Force -SkipPublisherCheck
 oh-my-posh font install CascadiaCode
 
 Add-Content $PROFILE 'oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\hotstick.minimal.omp.json" | Invoke-Expression'
+New-Item -Path $profile -Type File -Force
 . $PROFILE
 
 Add-Type -AssemblyName PresentationCore,PresentationFramework
