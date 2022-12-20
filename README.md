@@ -25,6 +25,5 @@ You might also want to increase your Event log sizes if you are doing GPO lockdo
 
 ## Win11 Usage
 
-1. Install winget https://docs.microsoft.com/en-us/windows/package-manager/winget/
-2. Run the Script
-3. Install sysmon manually (Until package update)
+1. Run the Script
+2. Install sysmon manually (Until package update)
