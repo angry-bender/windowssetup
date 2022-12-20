@@ -1,5 +1,9 @@
+#Ensures winget is installed
+
+Add-AppxPackage https://github.com/microsoft/winget-cli/releases/latest/download/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
+
 #Installs Packages
-Winget install Microsoft.WindowsTerminal
+winget install Microsoft.VisualStudioCode  --accept-source-agreements
 Winget install ohmyposh
 winget install powershell
 Winget install Microsoft.Office
