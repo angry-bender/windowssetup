@@ -19,7 +19,7 @@ Winget install VideoLAN.VLC
 Winget install Nvidia.GeForceExperience 
 Winget install Logitech.LGS  
 Winget install Citrix.Workspace 
-Winget install Adobe.AdobeAcrobatReaderDC  
+Winget install Foxit.FoxitReader 
 Winget install Cyanfish.NAPS2 
 Winget install OpenWhisperSystems.Signal 
 Winget install WinSCP.WinSCP 
