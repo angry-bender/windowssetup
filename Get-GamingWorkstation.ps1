@@ -1,5 +1,5 @@
 #Installs Packages
-choco install firefox vmwareworkstation 7zip steam goggalaxy origin uplay epicgameslauncher vlc vscode nvidia-display-driver battle.net intel-chipset-device-software intel-me-drivers logitechgaming sysmon citrix-workspace adobereader naps2 git signal putty winscp
+choco install firefox vmwareworkstation 7zip steam goggalaxy origin uplay epicgameslauncher vlc vscode nvidia-display-driver battle.net intel-chipset-device-software intel-me-drivers logitechgaming sysmon citrix-workspace foxitreader naps2 git signal putty winscp
 
 #Installs git for powershell
 refreshenv
